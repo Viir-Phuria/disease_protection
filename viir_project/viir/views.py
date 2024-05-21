@@ -80,7 +80,7 @@ class_indices = {0: 'Apple___Apple_scab',
  36: 'Tomato___Tomato_mosaic_virus',
  37: 'Tomato___healthy'}
 @csrf_exempt
-def home(request):
+def index(request):
     result=""
     if request.method == "POST":
         print(request.FILES)
