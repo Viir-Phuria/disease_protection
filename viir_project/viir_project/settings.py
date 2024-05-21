@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'viir_project.wsgi.application'
+WSGI_APPLICATION = 'viir_project.wsgi.app'
 
 
 # Database
