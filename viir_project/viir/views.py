@@ -93,4 +93,4 @@ def home(request):
             result=predict_image_class(address,class_indices)
             return JsonResponse({'result': result})
     form = Imageaform()
-    return (render(request,"viir/home.html",{"form":form,"result":result}))
+    return (render(request,"viir/index.html",{"form":form,"result":result}))
